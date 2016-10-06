@@ -11,20 +11,20 @@ h1 {
 }
 
 body > section {
-  padding-top: 40px;
+  padding: 35px 15px 10px 15px;
   margin: 1%;
 }
 
 section {
-  border: 1px solid gray;
+  border: 1px solid black;
   background-color: #FDF3E7;
   position: relative;
 }
 
 section > section {
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: -1px;
+	right: -1px;
 	width: 10em;
 	height: 1.5em;
 	text-align: center;

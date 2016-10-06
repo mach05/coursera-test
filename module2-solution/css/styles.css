@@ -1,0 +1,80 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	/* font size is 28px, 75% more than 16px */	
+	font-size: 1.75em;
+}
+
+body > section {
+  padding-top: 40px;
+  margin: 1%;
+}
+
+section {
+  border: 1px solid gray;
+  background-color: #FDF3E7;
+  position: relative;
+}
+
+section > section {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 10em;
+	height: 1.5em;
+	text-align: center;
+	/* font size is 18px, 25% more than 16px */	
+	font-size: 1.25em;
+}
+
+#section1 {
+	background-color: #74AFAD;
+}
+
+#section2 {
+	background-color: #C63D0F;
+}
+
+#section3 {
+	background-color: #C1E1A6;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  /* each of the sections takes up an equal amount of space on the screen (+ margins)*/
+  .col-lg-4 {
+  	float: left;
+    width: 31.33%;
+  }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12{
+  	float: left;
+  }
+
+  /* 1st and 2nd sections --> in first row, occupy equally the row (+ margins) */
+  .col-md-6{
+    width: 48%;
+  }
+
+  	/* 3rd section --> in the second row, occupies the entire row (+ margins) */
+   .col-md-12{
+    width: 98%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {	
+	/* each section should take up the entire row (+ margins)*/
+	.col-sm-12{
+  	 float: left;
+  	 width: 98%;
+  }
+}

@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .navbar-brand h1 { /* Food, LLC name */
   color: #fff;
@@ -65,37 +65,30 @@ div#main-section {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 #nav-list a {
-  color: #3b5998;
+  display: none;
 }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 #nav-list a {
-  color: #3b5998;
+  display: none;
 }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 #nav-list a {
-  color: #3b5998;
+  display: none;
 }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-  }
   .navbar-brand h1 { /* Food, LLC name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
   }
 }
 }

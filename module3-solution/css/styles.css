@@ -36,9 +36,6 @@ body {
   color: #fff;
   margin: 0 10px 10px;
 }
-#nav-list a:hover {
-  background: #8b9dc3;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #8b9dc3;
@@ -60,7 +57,6 @@ div#main-section {
   height: 5000px;
   text-align: center;
   background-color: #3b5998;
-  color: 
 }
 
 
@@ -68,17 +64,23 @@ div#main-section {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+#nav-list a {
+  color: #3b5998;
+}
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+#nav-list a {
+  color: #3b5998;
+}
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+#nav-list a {
+  color: #3b5998;
+}
 }
 
 /********** Extra small devices only **********/

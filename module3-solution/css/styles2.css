@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .navbar-brand h1 { /* Food, LLC name */
   color: #fff;
@@ -36,9 +36,7 @@ body {
   color: #fff;
   margin: 0 10px 10px;
 }
-#nav-list a:hover {
-  background: #8b9dc3;
-}
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #8b9dc3;
@@ -55,67 +53,42 @@ body {
   margin: 5px auto 30px;
   color: #000;
 }
-section.row {
-  position: relative;
-}
-section.row > div {
-  height: 700px;
+
+div#main-section {
+  height: 5000px;
   text-align: center;
   background-color: #3b5998;
-  margin: 5px;
-  margin-bottom: 15px;
 }
 
-div.category-tile > a {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  color: #fff;
-}
 
 /* END HOME PAGE */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  section.row > div {
-    width: 380px;
-  }
+#nav-list a {
+}
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  section.row > div {
-    width: 313px;
-  }
+#nav-list a {
+}
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  section.row > div {
-    width: 365px;
-  }
+
+#nav-list a {
+}
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-  }
   .navbar-brand h1 { /* Food, LLC name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-
 }
 }
-
-
-
